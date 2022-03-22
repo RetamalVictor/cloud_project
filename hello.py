@@ -1,8 +1,6 @@
-def toyou(x):
-    return "hi %s" %x
 
-def add(x):
-    return x+1
+def add(x,y):
+    return x+y
 
-def subtract(x):
-    return x-1
+x,y=10,1
+print(f'This is the sum of {x} and {y}. {add(x,y)}')

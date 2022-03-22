@@ -1,7 +1,4 @@
-from hello import subtract
+from hello import add 
 
-#def test_hello_add():
-    #assert add(test_hello_add.x) == 11
-
-def test_hello_subtract():
-    assert subtract(10) == 9
+def test_add():
+    assert add(1,2) == 3
